@@ -1,0 +1,64 @@
+#intro
+{
+    text-align: center;
+    display: block;
+}
+
+h1
+{
+    font-family: Georgia, 'Times New Roman', Times;
+    font-size: 5vw;
+}
+
+h3,a
+{
+    font-family: Georgia, 'Times New Roman', Times;
+    font-size: 3vw;
+}
+
+p,form
+{
+    font-size: 1.5vw;
+}
+
+#about
+{
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+form{
+    padding-bottom: 10vw;
+}
+form input
+{
+    width: 15vw;
+    height: 2vw;
+    border-color:green;
+
+}
+#button
+{
+    transition: all 0.3s ease-in-out;
+    margin-left: 3vw;
+}
+
+#button:hover{
+    color: blue;
+    cursor: pointer;
+    background-color: aqua;
+    transform: scale(1.1,1.1);
+    
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    #about{
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+}
+
